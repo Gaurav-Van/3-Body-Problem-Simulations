@@ -30,7 +30,11 @@ This script employs the Euler method for numerical integration. The Euler method
 ![RK4](https://github.com/user-attachments/assets/6a98db79-d652-4123-b30e-6eec5075b89f)
 
 ### 3_Body_Problem_Simulation_Euler.py
-`Initial Conditions used to get this beautiful pattern`
+`Simulation when Initial conditions in this file is used`
+
+![Euler 2](https://github.com/user-attachments/assets/74299644-ae30-43c3-8939-8e8f416213f3)
+
+`Initial Conditions used to get this following beautiful pattern`
 ``` python
 Ax=-1.2
 Ay=0
