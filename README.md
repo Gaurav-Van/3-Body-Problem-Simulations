@@ -23,6 +23,35 @@ This script employs the Euler method for numerical integration. The Euler method
 
 - **Complexity with Unequal Masses**: While the simulations use point masses for simplicity, it's important to note that unequal masses would result in varying gravitational forces, adding complexity to the interactions. However, the chaotic nature of the three-body problem remains inherent, as this sensitivity to initial conditions and complex dynamics is a fundamental aspect regardless of mass equality.
 
+## Result 
+
+### 3_Body_Problem_Simulation_RK4.py
+
+![RK4](https://github.com/user-attachments/assets/6a98db79-d652-4123-b30e-6eec5075b89f)
+
+### 3_Body_Problem_Simulation_Euler.py
+`Initial Conditions used to get this beautiful pattern`
+``` python
+Ax=-1.2
+Ay=0
+Bx=1
+By=0
+Cx=0
+Cy=0
+
+A.m = .44
+B.m = .87
+C.m = 1
+
+# initial momentum (mass*velocity)
+A.p=A.m*vector(0, -.992852, 0)
+B.p=B.m*vector(0, -.513024, 0)
+C.p=C.m*vector(0, .882922, 0)
+```
+
+![Euler (1)](https://github.com/user-attachments/assets/85bd60c4-7d07-408f-aa61-e75a2213948d)
+
+
 ## References
 
 For a deeper understanding of the mathematical concepts and the three-body problem, consider exploring the following resources:
